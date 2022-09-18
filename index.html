@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 10px;
+        }
+        header {
+            text-align: center;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+        }
+
+        figure img {
+            border-radius: 5%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Blog</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <a href="https://github.com/auraislamy" target="_blank"><img class="profile-img" src="./image/my-photo.jpg" alt="" width="200px"></a>
+            <p>Name : Aura Islamy</p>
+            <p>DoB  : April 8, 1999</p>
+            <p>Job  : Full-Time Learner</p>
+            <p>Hobby: Editing Video</p>
+            <strong>Some fact about me:</strong> 
+            <ul>
+                <li>I'm an Introvert</li>
+                <li>I'm an iKONIC</li>
+                <li>I <em>love</em> cat!</li>
+                <li>I want to be a Web Developer ❤︎</li>
+            </ul>
+        </section>
+        <section>
+            <h2>My Gallery</h2>
+            <figure>
+                <img src="./image/IMG_8510.JPEG" alt="" width="300px">
+                <figcaption>Me and My Parents</figcaption>
+            </figure>
+            <figure>
+                <img src="./image/classicu 2022-04-24 202943.144.jpg" alt="" width="300px">
+                <figcaption>Me and my highschool close friends</figcaption>
+            </figure>
+            <figure>
+                <img src="./image/IMG_9207.JPG" alt="" width="300px">
+                <figcaption>Me and My Family</figcaption>
+            </figure>
+            
+        </section>
+        <section>
+            <h2>Comments</h2>
+            <form action="">
+                <fieldset>
+                    <legend>What do you think about my blog?</legend>
+                    <label for="name">Name: <input type="text" placeholder="Regina George" id="name" name="name"></label><br>
+                    <label for="gender">Gender: 
+                        <input type="radio" name="gender" id="woman" value="woman" checked> Woman
+                        <input type="radio" name="gender" id="man" value="man"> Man
+                    </label><br>
+                    <label for="comment">Comment: </label><br>
+                    <input type="text" name="comment" id="comment"><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>What do you think I should improve about my blog?</legend>
+                        <input type="checkbox" name="suggestion" id="" value="The styles of the blog" checked> The styles of the blog <br> 
+                        <input type="checkbox" name="suggestion" id="" value="Make it more dynamic"> Make it more dynamic <br>
+                        <input type="checkbox" name="suggestion" id="" value="Make more update!"> Make more update!<br>
+                </fieldset><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Made with 🫶 ⓒ<a href="https://github.com/auraislamy" target="_blank">Aura Islamy</a></p>
+    </footer>
+</body>
+</html>
