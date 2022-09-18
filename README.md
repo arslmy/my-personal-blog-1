@@ -14,9 +14,9 @@
 2. Set the link based where you save the file
 
 ## Thanks to
-> freeCodeCamp.org
-> codecademy.com
-> w3schools.com
++ freeCodeCamp.org
++ codecademy.com
++ w3schools.com
 
 
 
