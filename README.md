@@ -3,12 +3,11 @@
 ## Description
 * Why I build this project?
 
-This is my first project as a new fresh start for me. My wish in the future is
-I will made my personal blog with advance HTML, CSS, and JavaScript.
+    This is my first project as a new fresh start for me. My wish in the future is I will made my personal blog with advance HTML, CSS, and JavaScript.
 
 * What I have learned from building this project
 
-I learn how to use fieldset, legend, and input element. 
+    I learn how to use fieldset, legend, and input element. 
 
 ## How To Use
 1. Just go to the Chrome or Mozilla
